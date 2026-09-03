@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Theme Button -->
+    <button class="theme-btn" onclick="toggleTheme()">🌙 Dark Mode</button>
+
+    <div class="resume">
+
+        <!-- Header -->
+        <header>
+            <div class="profile">
+                <img src="c:\Users\DELL\Downloads\photo.jpg" alt="Profile Photo">
+
+                <div>
+                    <h1>Gayathri Sathish</h1>
+                    <p>Computer Application Student</p>
+                </div>
+            </div>
+
+            <div class="contact">
+                <p>📧 gayathrisathish1980@gmail.com</p>
+                <p>📱 +91 9790506305</p>
+                <p>📍 Theni, India</p>
+            </div>
+        </header>
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I am a motivated Computer Application student interested in
+                web development and software technologies. I enjoy learning
+                new technologies and developing simple, user-friendly websites.
+            </p>
+        </section>
+        <section>
+            <h2>Education</h2>
+
+            <div class="card">
+                <h3>Bachelor of Computer Applications</h3>
+                <p>Nadar saraswathi College of arts and science | 2024 - 2027</p>
+                <p>Currently pursuing my degree with an interest in Bachelor of computer Application.</p>
+            </div>
+        </section> 
+        <section>
+            <h2>Skills</h2>
+
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Gitup</span>
+                <span>UI/UX</span>
+                <span>DBMS</span>
+            </div>
+        </section>
+        <section>
+            <h2>Experience</h2>
+
+            <div class="card">
+                <h3>Web Development Intern</h3>
+                <p>Alpha Fly Company | 2026</p>
+                <p>
+                    Worked on basic website development using HTML, CSS,
+                    and JavaScript.
+                </p>
+            </div>
+             <div class="card">
+                <h3>UI/UXIntern</h3>
+                <p>Twikibot Company | 2026</p>
+                <p>worked on basic website using figma and html,css and javascript</p>
+            </div>
+        </section>
+        <section>
+            <h2>Projects</h2>
+
+            <div class="projects">
+
+                <div class="card">
+                    <h3>Expense Tracker App</h3>
+                    <p>
+                        A simple expense tracking application that allows users to record, manage
+                         and monitor their daily expenses.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        A personal portfolio website showcasing my skills,
+                        projects, and contact information.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <h2>Contact Me</h2>
+
+            <form onsubmit="sendMessage(event)">
+                <input type="text" id="name" placeholder="Your Name" required>
+
+                <input type="email" id="email" placeholder="Your Email" required>
+
+                <textarea id="message" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <p id="result"></p>
+        </section>
+
+        <footer>
+            <p>© 2026 Gayathri Sathish | My Resume</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
